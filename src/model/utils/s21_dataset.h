@@ -8,7 +8,9 @@ namespace s21 {
 
 class S21Dataset {
  public:
-  static void S21GetValuesFromCSV(const std::string& pathToCSVFile, std::vector<std::vector<double>>& inputValues, std::vector<int>& outputValues);
+  static void S21GetValuesFromCSV(const std::string& pathToCSVFile,
+                                  std::vector<std::vector<double>>& inputValues,
+                                  std::vector<int>& outputValues);
 };
 
 }  // namespace s21
