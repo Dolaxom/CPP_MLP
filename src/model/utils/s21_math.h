@@ -1,7 +1,18 @@
 #ifndef SRC_S21_MATH_H
 #define SRC_S21_MATH_H
 
+#include <cstdint>
+#include <vector>
+
 namespace s21 {
+
+class S21Matrix {
+ public:
+  S21Matrix(uint32_t rows, uint32_t columns);
+
+ private:
+  std::vector<std::vector<double>> weightMatrix_;
+};
 
 class S21Math {
  public:

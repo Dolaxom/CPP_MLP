@@ -1,14 +1,12 @@
 #include <iostream>
 #include "model/utils/s21_dataset.h"
+#include "model/s21_network.h"
+#include "model/utils/s21_math.h"
 
 int main() {
-    std::string path = "emnist-letters-trainSHORT.csv";
-    std::vector<std::vector<double>> inputValues;
-    std::vector<int> outputValues;
+  s21::S21Network net = s21::S21Network::createNetwork(3);
 
-    s21::S21Dataset::S21GetValuesFromCSV(path, inputValues, outputValues);
+  std::cout << "aboba";
 
-    std::cout << outputValues.size();
-
-    return 0;
+  return 0;
 }

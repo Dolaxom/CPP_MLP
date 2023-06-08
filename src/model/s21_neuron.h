@@ -8,7 +8,7 @@ class S21Neuron {
   S21Neuron() = default;  // TODO
 
  private:
-  double neuronValue{};  // or output value
+  double neuronValue_{};  // or output value
 };
 
 }  // namespace s21
