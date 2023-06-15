@@ -5,7 +5,9 @@ namespace s21 {
 
 class S21Neuron {
  public:
-  S21Neuron() = default;  // TODO
+  S21Neuron() = default;
+
+  double& S21NeuronValue();
 
  private:
   double neuronValue_{};  // or output value

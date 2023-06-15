@@ -6,11 +6,9 @@
 
 namespace s21 {
 
-class S21Matrix {
- public:
+struct S21Matrix {
   S21Matrix(uint32_t rows, uint32_t columns);
 
- private:
   std::vector<std::vector<double>> weightMatrix_;
 };
 
